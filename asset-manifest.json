@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/www.alexander-carr.com/static/css/main.073c9b0a.css",
-    "main.js": "/www.alexander-carr.com/static/js/main.7e356549.js",
-    "static/js/787.88012170.chunk.js": "/www.alexander-carr.com/static/js/787.88012170.chunk.js",
-    "static/media/favicon.ico": "/www.alexander-carr.com/static/media/favicon.7351c75605f71e515f8d.ico",
-    "index.html": "/www.alexander-carr.com/index.html",
-    "main.073c9b0a.css.map": "/www.alexander-carr.com/static/css/main.073c9b0a.css.map",
-    "main.7e356549.js.map": "/www.alexander-carr.com/static/js/main.7e356549.js.map",
-    "787.88012170.chunk.js.map": "/www.alexander-carr.com/static/js/787.88012170.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.0bfde23b.js",
+    "static/js/787.88012170.chunk.js": "/static/js/787.88012170.chunk.js",
+    "static/media/favicon.ico": "/static/media/favicon.7351c75605f71e515f8d.ico",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.0bfde23b.js.map": "/static/js/main.0bfde23b.js.map",
+    "787.88012170.chunk.js.map": "/static/js/787.88012170.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.7e356549.js"
+    "static/js/main.0bfde23b.js"
   ]
 }
