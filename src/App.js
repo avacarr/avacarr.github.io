@@ -1,17 +1,21 @@
-import logo from './logo.svg';
+
+import { NavBar, Background } from './components';
+import { About, Experience, Contact, More } from './pages';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Alex's First website!
-        </p>
-      </header>
+    <div className="container">
+      <Background/>
+      <NavBar/>
+      <About/>
+      <Experience/>
+      <Contact/>
+      <More/>
     </div>
   );
 }
 
 export default App;
+
+
