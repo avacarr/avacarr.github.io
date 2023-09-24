@@ -1,0 +1,30 @@
+
+.homeBanner {
+    width: 80vw;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 5px 0px;
+    transform: skew(30deg);
+    margin-bottom: 5vh;
+  }
+
+.homePanel {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 70vh;
+    width: 80vw;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2:hover {
+    text-shadow: 0 0 15px #FF0000, 0 0 30px #0000FF;
+}
