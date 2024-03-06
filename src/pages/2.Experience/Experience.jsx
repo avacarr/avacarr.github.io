@@ -5,9 +5,6 @@ import './Experience.css'
 const Experience = () => {
   return (
     <div className="page hidden">
-      <div className="Banner">
-        <h1>Software Development Values</h1>
-      </div>
       <div className="Panel">
           <h2>Constant Learning</h2>
           <h2>Attention to Detail</h2>

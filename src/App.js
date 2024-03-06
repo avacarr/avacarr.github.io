@@ -1,5 +1,5 @@
 
-import { NavBar, Background } from './components';
+import { NavBar, Background, Signature, ContactBar } from './components';
 import { About, Experience, Contact, More } from './pages';
 import './App.css';
 
@@ -8,6 +8,8 @@ function App() {
     <div className="container">
       <Background/>
       <NavBar/>
+      <ContactBar/>
+      <Signature/>
       <About/>
       <Experience/>
       <Contact/>

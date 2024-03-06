@@ -1,10 +1,14 @@
 
-import React from 'react'
-import './Background.css'
+import React from 'react';
+import './Background.css';
+import bgimg from '../../resources/Sand.jpg'
 
 function Background() {
+
     return (
-        <div className="background"/>
+        <div className="background">
+           
+        </div>
     );
 }
 

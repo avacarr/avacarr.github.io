@@ -5,9 +5,6 @@ import './More.css'
 const More = () => {
   return (
     <div className="page hidden">
-      <div className="Banner">
-        <h1>Projects</h1>
-      </div>
       <div className="Panel">
           <div className="pCard">
             <img src=""/>

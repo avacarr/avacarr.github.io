@@ -4,16 +4,13 @@
   overflow-y: hidden;
 }
 
-.scroller {
-  
-}
 
 .page {
   position: absolute;
-  padding: 0 0 20% 20%;
+  padding: 0 0 20vh 20vw;
   justify-content: center;
-  width: 75%;
-  height: 80%;
+  width: 75vw;
+  height: 80vh;
   z-index: 1;
 }
 
@@ -21,39 +18,55 @@
   opacity: 0;
 }
 
-.Banner {
-  height: 80px;
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0px 0px 5px 0px;
-  transform: skew(30deg);
-  margin-bottom: 5vh;
-}
-
 .Panel {
   justify-content: center;
-  border: 3px solid rgba(255, 255, 255, 0.1);
-  background-color: rgba(255, 255, 255, 0.1);
-  margin: auto;
+  border: 0.5vh solid rgba(0, 0, 0, 0.5);
   height: 70vh;
+  margin: 10vh 0 0 0;
 }
 
 .indent {
-  text-indent: 30px;
+  text-indent: 3vw;
 }
 
 h1 {
   font-size: 3.25vh;
-  padding: 20px 0 0 100px;
-  transform: skew(-30deg);
+  padding: 2vh 0 0 10vw;
+  transform: skew(-45deg);
 }
 
 h2 {
   font-size: 2.5vh;
 }
 
-p {
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 3vh;
+h10 {
+  font-size: .2vh;
 }
 
+p {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  font-size: 2vh;
+}
+
+li {
+  font-size: 2vh;
+}
+
+@media (max-width: 800px), (min-width: 1800px), (max-height: 800px), (min-height: 1800px) {
+  h1 {
+    font-size: 3.25vw;
+  }
+  
+  h2 {
+    font-size: 2.5vw;
+  }
+  
+  p {
+    font-size: 2vw;
+  }
+  
+  li {
+    font-size: 2vw
+  }
+}
