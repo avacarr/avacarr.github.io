@@ -27,9 +27,6 @@ const NavBar = ({setView}) => {
 
     const beamWave = async () => {
       set1navBeam(true);
-      // set2navBeam(true);
-      // set3navBeam(true);
-      // set4navBeam(true);
       await delay(delayTime);
       set1navBeam(false);
       set2navBeam(true);

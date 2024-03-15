@@ -1,8 +1,8 @@
 
 .navbar img {
-    height: 22vh;
+    height: 23vh;
     width: 15vw;
-    padding: 2vh 0 4vh 2vw;
+    padding: 1vh 0 4vh 3vw;
 }
 
 .navbar li {
@@ -28,7 +28,7 @@
 
 .navbar {
     position: relative;
-    top: 2vh;
+    top: 3vh;
     width: 15vw;
     padding: 0 1vw 1vh 0;
     border-width: 1vh 2vw 1vh 0;
@@ -80,7 +80,7 @@
     position: absolute;
     height: 50vh;
     width: 4vw;
-    top: 28vh;
+    top: 30vh;
     left: 0vw;
     border-width: 5px;
     border-style: solid;

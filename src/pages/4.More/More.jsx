@@ -9,9 +9,9 @@ const More = ({view}) => {
   } else {
     test = false;
   }
-  hold = !test;
+  hold = test;
   return (
-    <div className={"page " + (test ? 'fadeIn ' : 'fadeOut ') + (hold ? 'hidden' : '')}>
+    <div className={"page " + (hold ? (test ? 'fadeIn ' : 'fadeOut ') : 'hidden')}>
       <div className="Panel">
           <div className="pCard">
             <img src=""/>

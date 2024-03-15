@@ -9,9 +9,9 @@ const Contact = ({view}) => {
   } else {
     test = false;
   }
-  hold = !test;
+  hold = test;
   return (
-    <div className={"page " + (test ? 'fadeIn ' : 'fadeOut ') + (hold ? 'hidden' : '')}>
+    <div className={"page " + (hold ? (test ? 'fadeIn ' : 'fadeOut ') : 'hidden')}>
       <div className="Panel">
           <a href="https://www.linkedin.com/in/alexandertcarr/" target="_blank">LinkedIn</a>
           <a href="https://github.com/avacarr" target="_blank">Github</a>

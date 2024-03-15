@@ -9,9 +9,9 @@ const Experience = ({view}) => {
   } else {
     test = false;
   }
-  hold = !test;
+  hold = test;
   return (
-    <div className={"page " + (test ? 'fadeIn ' : 'fadeOut ') + (hold ? 'hidden' : '')}>
+    <div className={"page " + (hold ? (test ? 'fadeIn ' : 'fadeOut ') : 'hidden')}>
       <div className="Panel">
           <h2>Constant Learning</h2>
           <h2>Attention to Detail</h2>

@@ -6,7 +6,7 @@ import { About, Experience, Contact, More } from './pages';
 import './App.css';
 
 function App() {
-  const [ view, setView ] = useState('about');
+  const [ view, setView ] = useState('');
 
   useEffect(() => {
     console.log('App useEffect active')
