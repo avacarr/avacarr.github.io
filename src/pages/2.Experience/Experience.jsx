@@ -2,9 +2,16 @@
 import React from 'react'
 import './Experience.css'
 
-const Experience = () => {
+const Experience = ({view}) => {
+  var hold, test;
+  if (view === 'experience') {
+    test = true;
+  } else {
+    test = false;
+  }
+  hold = !test;
   return (
-    <div className="page hidden">
+    <div className={"page " + (test ? 'fadeIn ' : 'fadeOut ') + (hold ? 'hidden' : '')}>
       <div className="Panel">
           <h2>Constant Learning</h2>
           <h2>Attention to Detail</h2>

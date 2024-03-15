@@ -7,7 +7,7 @@ function Background() {
 
     return (
         <div className="background">
-           
+           <img className="background" alt={bgimg} src={bgimg}/>
         </div>
     );
 }

@@ -1,32 +1,79 @@
 
-img {
-    height: 28vh;
-    padding: 0 0 0 0vw;
+.navbar img {
+    height: 22vh;
+    width: 15vw;
+    padding: 2vh 0 4vh 2vw;
 }
 
-.nav {
+.navbar li {
+    margin: 2vh 2vw 2vh 0;
+    padding: 2vh 0 2vh 0;
+}
+
+.navbar button {
     position: absolute;
+    left: 2vw;
+    width: 20vw;
+    height: 6vh;
+    opacity: 0;
+    z-index: 1;
+    translate: 0 -1vw;
+}
+
+.navbar ul {
+    width: 10vw;
+    padding: 0 1.5vw 0 3vw;
+    list-style-type: square;
+}
+
+.navbar {
+    position: relative;
     top: 2vh;
     width: 15vw;
-    padding: 0 1vw 1vh 1vw;
-    border-width: 1vh 2vw 1vh 2vw;
+    padding: 0 1vw 1vh 0;
+    border-width: 1vh 2vw 1vh 0;
 }
 
-.nav ul {
-    width: 10vw;
-    padding: 0 0 0 5.5vw;
-}
-
-li {
-    padding: 2vw 2vh 2vw 0;
-    border-color: rgba(0, 0, 0, 0.5);
+.navItemBorder {
+    position: absolute;
+    width: 30vw;
+    height: 5vh;
+    left: -26vw;
+    margin: 2vh 2vw 2vh 0;
+    border-width: 5px;
+    border-style: solid;
     border-radius:0 2vw 0 0;
     -moz-border-radius:0 2vw 0 0;
-    -webkit-border-radius:0 2vw 0 0;
+    -webkit-border-radius:0 2vw 0 0;  
 }
 
-.nav span {
-    margin: 1vh 1vw 1vh 0;
+.open {
+    animation: open 0.25s linear 0s forwards;
+}
+
+.open h2 {
+    margin: 0 1vw 0 0;
+    float: right;
+}
+
+.closed {
+    animation: close 0.25s linear 0s backwards;
+}
+
+.about {
+    top: 28.5vh;
+}
+
+.experience {
+    top: 37vh;
+}
+
+.contact {
+    top: 45.25vh;
+}
+
+.more {
+    top: 53.5vh;
 }
 
 .border {
@@ -34,34 +81,21 @@ li {
     height: 50vh;
     width: 4vw;
     top: 28vh;
-    left: 2vw;
+    left: 0vw;
+    border-width: 5px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.5);
     border-radius:0 2vw 0 2vw;
     -moz-border-radius:0 2vw 0 2vw;
     -webkit-border-radius:0 2vw 0 2vw;
 }
-
-.navVisible{
-    padding: 2vh 2vw 2vh 0;
-    opacity: 100;
-    border-style: solid;
+ 
+@keyframes open {
+    from { transform: translateX(0vw) }
+    to { transform: translateX(16vw) }
 }
 
-.navHide {
-    padding: 2vh 2vw 2vh 0;
-    display: none;
-    border-style: transparent;
-    border-width: 0;
-}
-
-.navVi:hover {
-    
-    opacity: 100;
-    display: block;
-    border-style: solid;
-    border-color: rgba(75, 125, 175, 0.5);
-    border-radius:0 2vw 0 0;
-    -moz-border-radius:0 2vw 0 0;
-    -webkit-border-radius:0 2vw 0 0;
-}
+@keyframes close {
+    from { transform: translateX(16vw) }
+    to { transform: translateX(0vw) }
+} 

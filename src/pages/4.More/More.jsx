@@ -2,9 +2,16 @@
 import React from 'react'
 import './More.css'
 
-const More = () => {
+const More = ({view}) => {
+  var hold, test;
+  if (view === 'more') {
+    test = true;
+  } else {
+    test = false;
+  }
+  hold = !test;
   return (
-    <div className="page hidden">
+    <div className={"page " + (test ? 'fadeIn ' : 'fadeOut ') + (hold ? 'hidden' : '')}>
       <div className="Panel">
           <div className="pCard">
             <img src=""/>

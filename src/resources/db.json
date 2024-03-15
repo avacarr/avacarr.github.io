@@ -1,0 +1,45 @@
+{
+    "projects": [
+        {
+            "title": "Project 1",
+            "description": "",
+            "author": "",
+            "id": "1"
+        },
+        {
+            "title": "Project 2",
+            "description": "",
+            "author": "",
+            "id": "1"
+        },
+        {
+            "title": "Project 3",
+            "description": "",
+            "author": "",
+            "id": "1"
+        }
+    ],
+    "work": [
+        {
+            "title": "",
+            "description": "",
+            "startDate": "",
+            "endDate": "",
+            "id": ""
+
+        },
+        {
+            "title": "",
+            "description": "",
+            "startDate": "",
+            "endDate": "",
+            "id": ""
+        }
+    ],
+    "hardSkills": [
+
+    ],
+    "softSkills": [
+
+    ]
+}
