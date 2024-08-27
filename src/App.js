@@ -13,7 +13,7 @@ function App() {
   },[]);
 
   return (
-    <div className="container">
+    <>
       <Background/>
       <NavBar setView={setView}/>
       <ContactBar/>
@@ -22,7 +22,7 @@ function App() {
       <Experience view={view}/>
       <Contact view={view}/>
       <More view={view}/>
-    </div>
+    </>
   );
 }
 

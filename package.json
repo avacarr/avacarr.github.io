@@ -47,5 +47,10 @@
   "devDependencies": {
     "concurrently": "^7.3.0",
     "gh-pages": "^4.0.0"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
