@@ -1,15 +1,16 @@
 
 import React, { Component } from 'react';
 import './Background.css';
-import bgimg from '../../resources/Sand.jpg'
 import { Particle } from './particle.js'
 
 const COLORS = [
-    {r: 20, g: 232, b: 30},   //Electric Green
-    {r: 0, g: 234, b: 141},   //Teal
-    {r: 1, g: 126, b: 213},   //Blue
-    {r: 181, g: 61, b: 255},   //Light purple
-    {r: 141, g: 0, b: 196},   //Purple
+    {r: 20, g: 232, b: 30},         //Electric Green
+    {r: 0, g: 234, b: 141},         //Teal
+    {r: 1, g: 126, b: 213},         //Blue
+    {r: 32, g: 18, b: 79},          //Deep Blue
+    {r: 56, g: 168, b: 61},         //Deep Green
+    {r: 114, g: 71, b: 161},        //Light purple
+    {r: 50, g: 10, b: 88},          //Purple
 ]
 
 class Background extends Component {
@@ -23,8 +24,8 @@ class Background extends Component {
 
         this.totalParticles = 15;
         this.particles = [];
-        this.maxRadius = 800;
-        this.minRadius = 400;
+        this.maxRadius = 600;
+        this.minRadius = 300;
 
         window.addEventListener('resize', this.resize.bind(this), false);
         this.resize();
