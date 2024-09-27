@@ -22,7 +22,7 @@ class Background extends Component {
 
         this.pixelRatio = (window.devicePixelRatio > 1) ? 2 : 1;
 
-        this.totalParticles = 15;
+        this.totalParticles = 25;
         this.particles = [];
         this.maxRadius = 600;
         this.minRadius = 300;

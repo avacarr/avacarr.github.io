@@ -3,10 +3,14 @@
     height: 23vh;
     width:  auto;
     padding: 1vh 0 4vh 3vw;
+    filter: drop-shadow(2px 2px 2px white) 
+            drop-shadow(-2px -2px 2px white)
+            drop-shadow(-2px 2px 2px white) 
+            drop-shadow(2px -2px 2px white);
 }
 
 .navbar li {
-    margin: 2vh 2vw 2vh 0;
+    margin: 2vh 2vw 4.5vh 0;
     padding: 2vh 0 2vh 0;
 }
 
@@ -23,7 +27,7 @@
 .navbar ul {
     width: 10vw;
     padding: 0 1.5vw 0 3vw;
-    list-style-type: square;
+    list-style-type: none;
 }
 
 .navbar {
@@ -45,6 +49,10 @@
     border-radius:0 2vw 0 0;
     -moz-border-radius:0 2vw 0 0;
     -webkit-border-radius:0 2vw 0 0;  
+    filter: drop-shadow(2px 2px 2px white) 
+            drop-shadow(-2px -2px 2px white)
+            drop-shadow(-2px 2px 2px white) 
+            drop-shadow(2px -2px 2px white);
 }
 
 .open {
@@ -88,6 +96,10 @@
     border-radius:0 2vw 0 2vw;
     -moz-border-radius:0 2vw 0 2vw;
     -webkit-border-radius:0 2vw 0 2vw;
+    filter: drop-shadow(2px 2px 2px white) 
+            drop-shadow(-2px -2px 2px white)
+            drop-shadow(-2px 2px 2px white) 
+            drop-shadow(2px -2px 2px white);
 }
  
 @keyframes open {

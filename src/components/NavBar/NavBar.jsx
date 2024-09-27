@@ -3,9 +3,9 @@ import {React, useState, useEffect} from 'react'
 import './NavBar.css'
 import icon from '../../resources/icon_new.png'
 
-const delayTime = 1200;
+const delayTime = 700;
 
-const NavBar = ({setView}) => {
+const NavBar = ({nView, setNView, oView, setOView}) => {
     const [nav1Beam, set1navBeam] = useState(false)
     const [nav2Beam, set2navBeam] = useState(false)
     const [nav3Beam, set3navBeam] = useState(false)
@@ -18,11 +18,14 @@ const NavBar = ({setView}) => {
     const delay = async (ms) => {
       return new Promise((resolve) => 
           setTimeout(resolve, ms));
-  };
+    };
 
     const handleClick = (page) => {
-      console.log("Request page: ", page);
-      setView(page);
+      if (page !== nView) {
+        console.log("Request page: ", page);
+        setOView(nView)
+        setNView(page);
+      }
     }
 
     const beamWave = async () => {

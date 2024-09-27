@@ -6,7 +6,8 @@ import { About, Experience, Contact, More } from './pages';
 import './App.css';
 
 function App() {
-  const [ view, setView ] = useState('');
+  const [ nView, setNView ] = useState('');
+  const [ oView, setOView ] = useState('');
 
   useEffect(() => {
     console.log('App useEffect active')
@@ -15,13 +16,13 @@ function App() {
   return (
     <>
       <Background/>
-      <NavBar setView={setView}/>
+      <NavBar nView={nView} setNView={setNView} oView={oView} setOView={setOView}/>
       <ContactBar/>
       <Signature/>
-      <About view={view}/>
-      <Experience view={view}/>
-      <Contact view={view}/>
-      <More view={view}/>
+      <About nView={nView} oView={oView} setOView={setOView}/>
+      <Experience nView={nView} oView={oView} setOView={setOView}/>
+      <Contact nView={nView} oView={oView} setOView={setOView}/>
+      <More nView={nView} oView={oView} setOView={setOView}/>
     </>
   );
 }
